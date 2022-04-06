@@ -36,7 +36,7 @@ ul{
     display: flex;
 }
 ul li{
-    margin: 40px 10px;
+    margin: 43px 10px;
     font-weight: bold;
     list-style-type: none;
     font-size: 12px;
