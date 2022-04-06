@@ -36,13 +36,10 @@
                   <li>a</li>
                   <li>a</li>
                   <li>a</li>
+                  <li>a</li>
               </ul>
           </div>
-          
-          
-        
-
-      </div>
+        </div>
       
   </footer>
 </template>
