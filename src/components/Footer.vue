@@ -26,7 +26,7 @@
       </div>
       <div class="footer-container flex">
 
-          <div class="footer-footer">
+          <div class="footer-footer flex">
             <button class="sign-up">SIGN-UP NOW!</button>
           </div>
           <div class="social flex">
@@ -78,21 +78,34 @@ export default {
     .main-footer li{
         margin: 0px
     }
-    .footer-container,.sign-up{
-        padding: 30px 0px;
+    .footer-container{
+        padding: 20px 0px;
         background-color: hsl(0deg 0% 19%);
     }
-    .footer-footer,.sign-up{
+    .sign-up{
+         background-color: hsl(0deg 0% 19%);
+    }
+    .footer-footer{
         color: white;
-        padding: 10px 8px;
     }
     .sign-up{
         border: 2px solid hsl(209deg 98% 49%);
+        padding: 10px 8px;
+        color: white;
     }
     .follow{
         color: hsl(209deg 98% 49%);
         font-weight: bold;
         text-decoration: none;
+    }
+    .social{
+        align-self: center;
+    }
+    .social ul li{
+        margin: 0px 10px;
+    }
+    .follow ul li{
+        margin: 0px 10px;
     }
     .footer-container{
         justify-content: space-around;
