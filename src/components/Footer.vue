@@ -70,13 +70,15 @@ export default {
         margin: 40px 20px;
     }
     .main-footer{
-        background-color: grey;
+        background-color: rgb(65, 32, 32);
     }.main-footer ul{
         margin: 20px;
         flex-direction: column;
     }
     .main-footer li{
-        margin: 0px
+        align-self: start;
+        margin: 0px;
+        color: hsl(102deg 4% 49%);
     }
     .footer-container{
         padding: 20px 0px;
