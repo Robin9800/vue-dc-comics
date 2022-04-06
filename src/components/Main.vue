@@ -1,6 +1,6 @@
 <template>
   <main>
-      <h1>MAIN</h1>
+      <h3>Content goes here </h3>
   </main>
 </template>
 
@@ -12,6 +12,11 @@ export default {
 
 <style>
     main{
-        background-color: black;
+        background-color: hsl(0deg 0% 11%);;
+    }
+    main h3{
+        padding: 40px;
+        color: white;
+        font-weight: bold;
     }
 </style>
