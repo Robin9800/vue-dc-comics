@@ -1,12 +1,12 @@
 <template>
   <footer>
       <div class="header-footer">
-        <ul class="info">
+        <ul class="info flex column">
           <li>bla</li>
         </ul>
       </div>
 
-      <div class="main-footer">
+      <div class="main-footer flex">
           <ul>
               <h4>DC COMICS</h4>
               <li>peppe</li>
@@ -24,6 +24,26 @@
               <li>peppe</li>
           </ul>
       </div>
+      <div class="footer-container flex">
+
+          <div class="footer-footer">
+            <button class="sign-up">SIGN-UP NOW!</button>
+          </div>
+          <div class="social flex">
+              <a class="follow" href="#">FOLLOW US</a>
+              <ul>
+                  <li>a</li>
+                  <li>a</li>
+                  <li>a</li>
+                  <li>a</li>
+              </ul>
+          </div>
+          
+          
+        
+
+      </div>
+      
   </footer>
 </template>
 
@@ -34,15 +54,22 @@ export default {
 </script>
 
 <style>
-    footer{
-            color: white;
-            background-color: hsl(209deg 98% 49%);
-        }
-    .header-footer ul li{
-            margin: 40px 20px;
-        }
-    .main-footer{
+/*UTILITIES*/
+    .flex{
         display: flex;
+    }
+    .column{
+        flex-direction: column;
+    }
+/*CONTENT*/
+    footer{
+        color: white;
+        background-color: hsl(209deg 98% 49%);
+    }
+    .header-footer ul li{
+        margin: 40px 20px;
+    }
+    .main-footer{
         background-color: grey;
     }.main-footer ul{
         margin: 20px;
@@ -51,8 +78,26 @@ export default {
     .main-footer li{
         margin: 0px
     }
-    .info{
-        display: flex;
-        flex-direction: column;
+    .footer-container,.sign-up{
+        padding: 30px 0px;
+        background-color: hsl(0deg 0% 19%);
+    }
+    .footer-footer,.sign-up{
+        color: white;
+        padding: 10px 8px;
+    }
+    .sign-up{
+        border: 2px solid hsl(209deg 98% 49%);
+    }
+    .follow{
+        color: hsl(209deg 98% 49%);
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .footer-container{
+        justify-content: space-around;
+    }
+    .footer-footer ul li{
+        margin: 0px 10px
     }
 </style>
