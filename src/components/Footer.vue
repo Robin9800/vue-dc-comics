@@ -8,20 +8,56 @@
 
       <div class="main-footer flex">
           <ul>
-              <h4>DC COMICS</h4>
-              <li>peppe</li>
+                <h4>DC COMICS</h4>
+                <li><a href="#">Characters</a></li>
+                <li><a href="#">Comics</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Tv</a></li>
+                <li><a href="#">Game</a></li>
+                <li><a href="#">Collectibles</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Fans</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Shop</a></li>
           </ul>
           <ul>
-              <h4>DC</h4>
-              <li>peppe</li>
+                <h4>DC</h4>
+                <li><a href="#">Characters</a></li>
+                <li><a href="#">Comics</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Tv</a></li>
+                <li><a href="#">Game</a></li>
+                <li><a href="#">Collectibles</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Fans</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Shop</a></li>
           </ul>
           <ul>
-              <h4>SITES</h4>
-              <li>peppe</li>
+                <h4>SITES</h4>
+                <li><a href="#">Characters</a></li>
+                <li><a href="#">Comics</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Tv</a></li>
+                <li><a href="#">Game</a></li>
+                <li><a href="#">Collectibles</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Fans</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Shop</a></li>
           </ul>
           <ul>
-              <h4>SHOP</h4>
-              <li>peppe</li>
+                <h4>SHOP</h4>
+                <li><a href="#">Characters</a></li>
+                <li><a href="#">Comics</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Tv</a></li>
+                <li><a href="#">Game</a></li>
+                <li><a href="#">Collectibles</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Fans</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Shop</a></li>
           </ul>
       </div>
       <div class="footer-container flex">
@@ -111,5 +147,16 @@ export default {
     }
     .footer-footer ul li{
         margin: 0px 10px
+    }
+    .main-footer a{
+        font-size: 12px;
+        color: hsl(0deg 0% 51%);
+        padding: 0px;
+        line-height: 20px;
+    }
+    .main-footer ul h4{
+        display: flex;
+        justify-content: start;
+        margin-bottom: 20px
     }
 </style>

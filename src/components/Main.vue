@@ -1,12 +1,19 @@
 <template>
   <main>
-      <h3>Content goes here </h3>
+      <div class="container">
+          <div v-for="(item, index) in slides" :key="index">
+
+          </div>
+      </div>
   </main>
 </template>
 
 <script>
 export default {
-    name: 'MainComponent'
+    name: 'MainComponent',
+    props: {
+        slides: Array
+    }
 }
 </script>
 
