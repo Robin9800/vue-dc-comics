@@ -1,18 +1,21 @@
 <template>
   <main>
       <div class="container">
-          <div v-for="(item, index) in slides" :key="index">
-
-          </div>
-      </div>
+            <Slideitem v-for="(item, index) in slides" :key="index" :slide='item'/>
+        </div>
+        
   </main>
 </template>
 
 <script>
+import Slideitem from '@/components/Slideitem.vue'
 export default {
     name: 'MainComponent',
     props: {
         slides: Array
+    },
+    components: {
+        Slideitem
     }
 }
 </script>

@@ -48,16 +48,9 @@
           </ul>
           <ul>
                 <h4>SHOP</h4>
-                <li><a href="#">Characters</a></li>
-                <li><a href="#">Comics</a></li>
-                <li><a href="#">Movies</a></li>
-                <li><a href="#">Tv</a></li>
-                <li><a href="#">Game</a></li>
-                <li><a href="#">Collectibles</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">Fans</a></li>
-                <li><a href="#">New</a></li>
-                <li><a href="#">Shop</a></li>
+                <li><a href="#">Shop DC</a></li>
+                <li><a href="#">Shop DC Collectibles</a></li>
+               
           </ul>
       </div>
       <div class="footer-container flex">
