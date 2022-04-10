@@ -2,24 +2,19 @@
     <header>
         <img src="img/dc-logo.png" alt="dc-logo">
         <ul>
-            <li class="nav-bar"><a href="#">CHARACTERS</a></li>
-            <li class="nav-bar"><a href="#">COMICS</a></li>
-            <li class="nav-bar"><a href="#">MOVIES</a></li>
-            <li class="nav-bar"><a href="#">TV</a></li>
-            <li class="nav-bar"><a href="#">GAME</a></li>
-            <li class="nav-bar"><a href="#">COLLECTIBLES</a></li>
-            <li class="nav-bar"><a href="#">VIDEOS</a></li>
-            <li class="nav-bar"><a href="#">FANS</a></li>
-            <li class="nav-bar"><a href="#">NEW</a></li>
-            <li class="nav-bar"><a href="#">SHOP</a></li>
+            <li v-for="(page, index) in navigation" :key="index"><a href="#">{{page.name}}</a></li>
 
         </ul>
     </header>
 </template>
 
 <script>
+import navigation from '@/assets/navigation'
 export default {
-    name: 'HeaderComponent'
+    name: 'HeaderComponent',
+    data(){
+        return {navigation}
+    }
 }
 </script>
 

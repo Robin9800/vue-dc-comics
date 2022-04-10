@@ -1,6 +1,7 @@
 <template>
   <div class="card">
       <img :src="slide.thumb" alt="card">
+      <h2>{{slide.series}}</h2>
   </div>
 </template>
 
@@ -14,5 +15,5 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-
+    
 </style>
