@@ -7,7 +7,8 @@
       </div>
 
       <div class="main-footer flex">
-          <ul>
+          <div class="indirizzi">
+              <ul>
                 <h4>DC COMICS</h4>
                 <li><a href="#">Characters</a></li>
                 <li><a href="#">Comics</a></li>
@@ -52,6 +53,10 @@
                 <li><a href="#">Shop DC Collectibles</a></li>
                
           </ul>
+          </div>
+          <div class="logo-dc">
+              <img src="img/dc-logo.png" alt="">
+          </div>
       </div>
       <div class="footer-container flex">
 
@@ -61,11 +66,21 @@
           <div class="social flex">
               <a class="follow" href="#">FOLLOW US</a>
               <ul>
-                  <li>a</li>
-                  <li>a</li>
-                  <li>a</li>
-                  <li>a</li>
-                  <li>a</li>
+                  <li>
+                      <img src="img/footer-facebook.png" alt="">
+                  </li>
+                  <li>
+                      <img src="img/footer-periscope.png" alt="">
+                  </li>
+                  <li>
+                      <img src="img/footer-pinterest.png" alt="">
+                  </li>
+                  <li>
+                      <img src="img/footer-twitter.png" alt="">
+                  </li>
+                  <li>
+                      <img src="img/footer-youtube.png" alt="">
+                  </li>
               </ul>
           </div>
         </div>
@@ -97,6 +112,7 @@ export default {
     }
     .main-footer{
         background-color: rgb(65, 32, 32);
+        background-image: url("../../public/img/footer-bg.jpg");
     }.main-footer ul{
         margin: 20px;
         flex-direction: column;
@@ -129,6 +145,10 @@ export default {
     .social{
         align-self: center;
     }
+    .social a{
+        align-self: center;
+        margin-right: 20px;
+    }
     .social ul li{
         margin: 0px 10px;
     }
@@ -141,15 +161,27 @@ export default {
     .footer-footer ul li{
         margin: 0px 10px
     }
+    .main-footer{
+        justify-content: space-around;
+    }
     .main-footer a{
         font-size: 12px;
         color: hsl(0deg 0% 51%);
         padding: 0px;
         line-height: 20px;
     }
+    .indirizzi{
+        display: flex;
+        margin: 20px 30px;
+    }
     .main-footer ul h4{
         display: flex;
         justify-content: start;
         margin-bottom: 20px
+    }
+    .logo-dc img{
+        height: 310px;
+        filter: opacity(0.5);
+        transform: rotate(321deg);
     }
 </style>

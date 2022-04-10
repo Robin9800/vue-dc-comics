@@ -25,7 +25,9 @@ header{
 }
 header img{
     display: flex;
-    align-content: center;
+    align-self: center;
+    height: 60px;
+
 }
 ul{
     display: flex;

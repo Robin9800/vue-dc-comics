@@ -1,7 +1,8 @@
 <template>
   <main>
+      <div class="jumbotron"></div>
       <div class="container">
-            <Slideitem v-for="(item, index) in slides" :key="index" :slide='item'/>
+            <Slideitem class="card" v-for="(item, index) in slides" :key="index" :slide='item'/>
         </div>
         
   </main>
@@ -28,5 +29,18 @@ export default {
         padding: 40px;
         color: white;
         font-weight: bold;
+    }
+    .container{
+        margin: 0px 200px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      
+    }
+  
+    .jumbotron{
+        height: 45vh;
+        background-image: url("../../public/img/jumbotron.jpg");
+        background-size: 100%;
     }
 </style>

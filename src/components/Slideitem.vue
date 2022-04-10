@@ -14,6 +14,15 @@ export default {
 }
 </script>
 
-<style lang='scss' scoped>
-    
+<style>
+    .card img{
+        margin: 30px 10px;
+        width: 100px;
+    }
+    .card h2{
+        display: flex;
+        color: white;
+        font-size: 15px;
+        justify-content: start;
+    }
 </style>
