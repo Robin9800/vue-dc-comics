@@ -1,8 +1,27 @@
 <template>
   <footer>
       <div class="header-footer">
-        <ul class="info flex column">
-          <li>bla</li>
+        <ul class="info flex">
+          <li>
+              <img src="img/buy-comics-digital-comics.png" alt="">
+              <h4>DIGITAL COMICS</h4>
+          </li>
+          <li>
+              <img src="img/buy-comics-merchandise.png" alt="">
+              <h4>DC MERCHANDISE</h4>
+          </li>
+          <li>
+              <img src="img/buy-comics-subscriptions.png" alt="">
+              <h4>SCUBSCRIPTION</h4>
+          </li>
+          <li>
+              <img src="img/buy-comics-shop-locator.png" alt="">
+              <h4>COMIC SHOP LOCATOR</h4>
+          </li>
+          <li>
+              <img src="img/buy-dc-power-visa.svg" alt="">
+              <h4>DC POWER VISA</h4>
+          </li>
         </ul>
       </div>
 
@@ -109,6 +128,7 @@ export default {
     }
     .header-footer ul li{
         margin: 40px 20px;
+        display: flex;
     }
     .main-footer{
         background-color: rgb(65, 32, 32);
@@ -121,6 +141,16 @@ export default {
         align-self: start;
         margin: 0px;
         color: hsl(102deg 4% 49%);
+    }
+    .info{
+        justify-content: center;
+    }
+    .info img{
+        height: 50px;
+        margin-right: 20px;
+    }
+    .info h4{
+        align-self: center;
     }
     .footer-container{
         padding: 20px 0px;
