@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-      <h3>{{slide.thumb}}</h3>
+      <img :src="slide.thumb" alt="card">
   </div>
 </template>
 

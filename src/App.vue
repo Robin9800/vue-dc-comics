@@ -18,7 +18,9 @@ import slides from '@/assets/dc-comics';
 export default {
   name: 'App',
   data(){
-    return slides
+    console.log(slides)
+    return {slides}
+    
   },
   components: {
     Header,
